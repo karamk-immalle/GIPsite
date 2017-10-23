@@ -1,0 +1,55 @@
+.hoofd{
+	font-weight: 300;
+	font-family: 'Comic Sans MS';
+	font-size:200px;
+	color: white;
+}
+
+.hoofdmobile{
+	font-weight: 300;
+	font-family: 'Comic Sans MS';
+	font-size:50px;
+	color: white;
+}
+
+.hoofdmedium{
+	font-weight: 300;
+	font-family: 'Comic Sans MS';
+	font-size:75px;
+	color: white;
+}
+
+.title {
+	font-weight: 900;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+	font-size: 2.5rem;
+	text-align: center;
+	color: black;
+	
+}
+
+.title span {
+	font-weight: 300;
+	display: block;
+	font-size: .75em;
+	color:black;
+}
+
+.footer{
+	/* background-color:#1C9BFD; */
+}
+
+body{
+background-image:url(../Blue-Background-5E3.jpg);
+}
+
+.w3-bar .w3-bar-item{
+	padding:8px 16px;
+	/*float:left;*/
+	width:auto;
+	border-bottom:1px solid rgb(0, 155,255);
+	outline:none;
+	display:block}
+	
+.w3-bar .w3-bar-item::last-child { border: none}
