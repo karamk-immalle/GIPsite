@@ -1,25 +1,26 @@
 .hoofd{
 	font-weight: 300;
-	font-family: 'Comic Sans MS';
+	font-family: 'Chewy';
 	font-size:200px;
 	color: white;
 }
 
 .hoofdmobile{
 	font-weight: 300;
-	font-family: 'Comic Sans MS';
+	font-family: 'Chewy';
 	font-size:50px;
 	color: white;
 }
 
 .hoofdmedium{
 	font-weight: 300;
-	font-family: 'Comic Sans MS';
+	font-family: 'Chewy';
 	font-size:75px;
 	color: white;
 }
 
 .title {
+	font-family: 'Indie Flower';
 	font-weight: 900;
 	margin-bottom: 1.5em;
 	margin-top: 1em;
@@ -30,6 +31,7 @@
 }
 
 .title span {
+	font-family: 'Indie Flower';
 	font-weight: 300;
 	display: block;
 	font-size: .75em;
