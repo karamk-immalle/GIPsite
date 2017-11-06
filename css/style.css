@@ -38,10 +38,6 @@
 	color:black;
 }
 
-.footer{
-	/* background-color:#1C9BFD; */
-}
-
 body{
 background-image:url(../Blue-Background-5E3.jpg);
 }
@@ -55,3 +51,8 @@ background-image:url(../Blue-Background-5E3.jpg);
 	display:block}
 	
 .w3-bar .w3-bar-item::last-child { border: none}
+
+span{
+	font-size:25px;
+	font-weight:bold;
+}

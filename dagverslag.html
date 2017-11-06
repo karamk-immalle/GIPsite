@@ -5,7 +5,7 @@
  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Chewy|Indie+Flower" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Chewy|Indie+Flower" rel="stylesheet">
  <title>Karam</title>
 </head>
 
@@ -34,11 +34,35 @@
 <h1 style="text-align:center; padding:124;" class="w3-mobile w3-hide-small w3-hide-large hoofdmedium" >Dagverslag</h1>
 <h1 class="w3-center w3-mobile hoofdmobile w3-hide-large w3-hide-medium w3-padding-64" >Dagverslag</h1>
 
-<div class="w3-content w3-white">
+<div class="w3-content w3-white w3-panel">
 <div class="w3-container w3-section w3-content w3-padding-64">
-<h1 class="title">Test<span>Coming soon!</span></h1>
+ <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align w3-padding-large"><span>2017-10-02</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo1" class="w3-container w3-hide">
+	<p>coming soon!</p>		
+</div>
+
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align w3-padding-large"><span>2017-10-03</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo2" class="w3-container w3-hide">
+	<p>coming soon!</p>
+ </div>
+ 
+ <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-left-align w3-padding-large"><span>2017-10-04</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo3" class="w3-container w3-hide">
+	<p>coming soon!</p>
+ </div>
+ 
+ <button onclick="myFunction('Demo4')" class="w3-button w3-block w3-left-align w3-padding-large"><span>2017-10-05</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo4" class="w3-container w3-hide">
+	<p>coming soon!</p>
+ </div>
+ 
+ <button onclick="myFunction('Demo5')" class="w3-button w3-block w3-left-align w3-padding-large"><span>2017-10-06</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo5" class="w3-container w3-hide">
+	<p>coming soon!</p>
+ </div>
 </div>
 </div>
+
 
 <footer class="w3-bar w3-blue w3-block">
 	<div class="w3-container">
@@ -61,6 +85,15 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
 }
 </script>
 
