@@ -37,7 +37,30 @@
 
 <div class="w3-content w3-white">
 <div class="w3-container w3-section w3-content w3-padding-64">
-<h1 class="title">تجربة<span>!قريباً</span></h1>
+ <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align w3-padding-large"><span class="w3-right">02-10-2017</span> <i class="fa fa-chevron-down w3-left w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo1" class="w3-container w3-hide"> 
+	<p class="w3-right">!قريبا</p>		
+</div>
+
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align w3-padding-large"><span class="w3-right">03-10-2017</span> <i class="fa fa-chevron-down w3-left w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo2" class="w3-container w3-hide">
+	<p class="w3-right">!قريبا</p>
+ </div>
+ 
+ <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-left-align w3-padding-large"><span class="w3-right">04-10-2017</span> <i class="fa fa-chevron-down w3-left w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo3" class="w3-container w3-hide">
+	<p class="w3-right">!قريبا</p>
+ </div>
+ 
+ <button onclick="myFunction('Demo4')" class="w3-button w3-block w3-left-align w3-padding-large"><span class="w3-right">05-10-2017</span> <i class="fa fa-chevron-down w3-left w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo4" class="w3-container w3-hide">
+	<p class="w3-right">!قريبا</p>
+ </div>
+ 
+ <button onclick="myFunction('Demo5')" class="w3-button w3-block w3-left-align w3-padding-large"><span class="w3-right">06-10-2017</span> <i class="fa fa-chevron-down w3-left w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo5" class="w3-container w3-hide">
+	<p class="w3-right">!قريبا</p>
+ </div>
 </div>
 </div>
 
@@ -62,6 +85,15 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
 }
 </script>
 

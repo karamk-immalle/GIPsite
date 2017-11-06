@@ -53,3 +53,8 @@ background-image:url(../img/Blue-Background-5E3.jpg);
 	display:block}
 	
 .w3-bar .w3-bar-item::last-child { border: none}
+
+span{
+	font-weight:bold;
+	font-size:25px;
+}
