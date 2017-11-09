@@ -39,7 +39,10 @@
 }
 
 body{
-background-image:url(../img/Blue-Background-5E3.jpg);
+	background-image:url(../img/Blue-Background-5E3.jpg);
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 .w3-bar .w3-bar-item{
 	padding:8px 16px;
@@ -55,3 +58,12 @@ span{
 	font-size:25px;
 	font-weight:bold;
 }
+
+.logo{
+	font-family:'Dancing Script'
+}
+
+
+  main {
+    flex: 1 0 auto;
+  }
