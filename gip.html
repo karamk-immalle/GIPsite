@@ -1,0 +1,97 @@
+<DOCTYPE html!>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Chewy|Indie+Flower|Dancing+Script" rel="stylesheet">
+ <title>Karam</title>
+</head>
+
+<body>
+<div class="w3-top">
+<div class="w3-bar w3-border-blue w3-card-4 w3-blue">
+<a class="w3-bar-item w3-button w3-large w3-padding-large w3-hide-medium w3-hide-large w3-hover-white w3-text-white w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	<a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-large"><i class="fa fa-home"></i> Home</a>
+	<div class="w3-dropdown-hover">
+		<a href="stage.html" class="w3-button w3-large w3-hover-white w3-large w3-hide-small" style="font-size:16px;">Stage <i class="fa fa-caret-down"></i></a>
+		<div class="w3-dropdown-content w3-blue w3-bar-block w3-card-4">
+			<a href="dagverslag.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Dagverslag</a>
+			<a href="fotoreportage.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Fotoreportage</a>
+		</div>
+	</div>
+	<a href="gip.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white w3-large">GIP</a>
+	<a href="over_mij.html" class="w3-bar-item w3-button w3-right w3-hover-white w3-large w3-hide-small" style="font-size:16px">Over mij</a>
+</div>
+</div>
+
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="stage.html" class="w3-bar-item w3-button w3-padding-large w3-text-blue">Stage</a>
+  <a href="dagverslag.html" class="w3-bar-item w3-button w3-padding-large w3-text-blue">Dagverslag</a>
+  <a href="fotoreportage.html" class="w3-bar-item w3-button w3-padding-large w3-text-blue">Fotoreportage</a>
+  <a href="over_mij.html" class="w3-bar-item w3-button w3-padding-large w3-text-blue">Over mij</a>
+  <a href="gip.html" class="w3-bar-item w3-button w3-padding-large w3-text-blue">GIP</a>
+</div>
+
+<h1 style="text-align:center; padding:124;" class="w3-mobile w3-hide-small w3-hide-medium hoofd" >GIP</h1>
+<h1 style="text-align:center; padding:124;" class="w3-mobile w3-hide-small w3-hide-large hoofdmedium" >GIP</h1>
+<h1 class="w3-center w3-mobile hoofdmobile w3-hide-large w3-hide-medium w3-padding-64" >GIP</h1>
+
+<div class="w3-content w3-white w3-panel">
+<div class="w3-container w3-section w3-content w3-padding-64">
+ <button onclick="myFunction('Demo1')" class="w3-button w3-blue w3-block w3-left-align w3-padding-large"><span class="w3-left">Case Study</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo1" class="w3-container w3-hide"> 
+	<h1>Analyse van het bedrijfsnetwerk</h1>
+	<p>Gemeente & ocmw Zoersel beschikt over een uitgebreid intern en extern netwerk. Elke
+computer is bedraad of draadloos met dit netwerk verbonden, alsook elk ander toestel
+(printer, telefoontoestellen, …). De meeste externe locaties zijn verbonden via glasvezel.
+Deze zijn in volledig eigen beheer. Het intern netwerk bevat de serverroom en 3 extra dataracks. de serverroom en de extra dataracks zijn ook verbonden met glasvezels(multimode fiber). Het extern netwerk is de verbinding tussen de gemeente en 17 verschillende locaties, de verbinding is in twee delen verdeeld: 11 locaties zijn via glasvezels verbonden(single mode fiber) en 6 locaties zijn via Sophos RED devices (Remote Ethernet Device) verbonden omdat het niet mogelijk was glasvezels binnen te krijgen. Hiermee wordt een tunnel gelegd door het gewone Internet zodat zelf geen fysieke kabel nodig is. RED devices zijn beveiligde toestellen die verbonden zijn met de UTM . Alle externe locaties, printers,......... zijn in een VLAN verbonden. VLAN's laten bijvoorbeeld toe dat in een bedrijf logisch gescheiden netwerken bestaan voor de administratie-afdeling, de verkoopafdeling, etc., los van de fysieke inrichting van het netwerk. Dit betekent dat alle computers en andere netwerkelementen van één afdeling rechtstreeks met elkaar kunnen communiceren, maar communicatie met toestellen van een andere afdeling rechtstreeks via het netwerk niet mogelijk is. Ze gebruiken Sophos UTM(Unified Threat Management) als beveiliging, het bevat de firewall, de antivirus, spam control, mail relaying, VPN voor thuiswerkers. op het einde van dit jaar gaan ze het intern netwerk vernieuwen, ze gaan twee switchen vervangen.</p>		
+</div>
+
+ <button onclick="myFunction('Demo2')" class="w3-button w3-white w3-block w3-left-align w3-padding-large"><span class="w3-left">Analyse van de huisstijl van stagebedrijf</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo2" class="w3-container w3-hide"> 
+	<p></p>		
+</div>
+
+ <button onclick="myFunction('Demo3')" class="w3-button w3-blue w3-block w3-left-align w3-padding-large"><span class="w3-left">Bedrijfseconomische analyse</span> <i class="fa fa-chevron-down w3-right w3-xxlarge" aria-hidden="true"></i></button>
+ <div id="Demo3" class="w3-container w3-hide"> 
+	<p></p>		
+</div>
+</div>
+</div>
+
+<footer class="w3-bar w3-blue w3-block">
+	<div class="w3-container w3-block">
+		<p>© 2017 Karam Khalil <a href="../GIPsite/ar/index.html" class="w3-right">AR</a></p>
+	<a href="https://github.com/karamk-immalle"><i style="margin: 0 0 10px 650px" class="fa fa-github w3-xlarge w3-hover-opacity w3-hide-small w3-hide-medium"></i></a>
+	<a href="https://github.com/karamk-immalle"><i style="margin: 0 0 10px 250px" class="fa fa-github w3-xlarge w3-hover-opacity w3-hide-large"></i></a> 	
+	</div>
+</footer>
+
+<script>
+
+
+function myFunction(id) {
+	if (id === undefined) {
+		id = "navDemo";
+	}
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
